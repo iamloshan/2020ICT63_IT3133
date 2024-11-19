@@ -33,6 +33,16 @@ const Profile = ({ student }) => {
                     Gender : {student.gender}
                 </td>
             </tr>
+            <tr>
+                <td>
+                    Address : {student.address.city}, {student.address.country}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Skills : {student.skills.join(", ")}
+                </td>
+            </tr>
         </table>
       </div>
     </div>
