@@ -1,6 +1,6 @@
 const Profile = ({ student }) => {
     return (
-      <div className="">
+      <div className="profile">
         <img src={`/profilepic/${student.profilePic}`} alt={student.firstName} />
       </div>
     );
