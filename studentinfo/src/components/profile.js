@@ -18,7 +18,21 @@ const Profile = ({ student }) => {
                     Full Name : {`${student.firstName} ${student.lastName}`}
                 </td>
             </tr>
-           
+            <tr>
+                <td>
+                    Age : {student.age}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Course : {student.course}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender : {student.gender}
+                </td>
+            </tr>
         </table>
       </div>
     </div>
